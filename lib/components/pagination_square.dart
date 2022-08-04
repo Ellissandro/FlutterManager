@@ -1,9 +1,5 @@
-
-
 import 'package:flutter/material.dart';
-
 import '../core/app_colors.dart';
-
 class PaginationSquare extends StatelessWidget {
   const PaginationSquare({super.key});
 

@@ -14,7 +14,7 @@ class MuralContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CardComponent(
-        child: Column(
+      child: Column(
       children: [
         ListTile(
           horizontalTitleGap: 10,
@@ -41,7 +41,7 @@ class MuralContent extends StatelessWidget {
           ),
           title: const Text('claudia',
               style: TextStyle(fontWeight: FontWeight.bold)),
-          subtitle: const Text('20/07/2022 08:40'),
+          subtitle: const Text('20/07/2022 08:40', style: TextStyle(fontSize: 12, color: AppColors.black),),
         ),
         Container(
           height: 200,
